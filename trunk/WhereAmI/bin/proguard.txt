@@ -1,0 +1,48 @@
+# view res/layout/result.xml #generated:18
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.suny.ocr.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.suny.ocr.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.suny.ocr.ImageProcessingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.suny.ocr.LocationDisplayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.suny.ocr.PreferencesActivity { <init>(...); }
+
+# view res/layout/image_processing.xml #generated:7
+-keep class com.suny.ocr.TouchView { <init>(...); }
+
+# view res/layout/capture.xml #generated:27
+-keep class com.suny.ocr.ViewfinderView { <init>(...); }
+
+# view res/layout/capture.xml #generated:110
+-keep class com.suny.ocr.camera.ShutterButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.suny.ocr.network.AndroidRESTClientActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.suny.ocr.network.AndroidRESTClientPhotoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.suny.ocr.network.ImageUpload { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.suny.ocr.network.ServiceProviderActivity { <init>(...); }
+
+# onClick res/layout/ocr_result.xml #generated:133
+-keepclassmembers class * { *** doOCR(...); }
+
+# onClick res/layout/image_processing.xml #generated:14
+-keepclassmembers class * { *** imageProcessing(...); }
+
+# onClick res/layout/ocr_result.xml #generated:140
+-keepclassmembers class * { *** postData(...); }
+
