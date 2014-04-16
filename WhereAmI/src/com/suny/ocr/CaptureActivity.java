@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+//Testing
 package com.suny.ocr;
 
 import java.io.File;
@@ -1149,7 +1149,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 		case RC_REST:
 			Log.d(TAG, "Check RayVo");
 			if (resultCode == RESULT_OK) {
-				//location of the user				
+				//location of the use				
 				lat = data.getStringExtra("LAT");
 				lon = data.getStringExtra("LON");
 				
