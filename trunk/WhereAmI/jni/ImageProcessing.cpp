@@ -120,7 +120,7 @@ jboolean Java_my_project_MyRealTimeImageProcessing_TouchView_brightness(
 	return true;
 }
 
-extern "C" jboolean Java_com_suny_ocr_TouchView_HightLight(
+extern "C" jboolean Java_com_suny_ocr_TouchView_HighLight(
 		JNIEnv * env, jobject obj, jobject bitmap, jint x, jint y,
 		jbyteArray imgData, jintArray outPixels) {
 	__android_log_print(ANDROID_LOG_DEBUG, DEBUG_TAG, "NDK: HightLight");
@@ -418,7 +418,7 @@ extern "C" jboolean Java_com_suny_ocr_ImageProcessingActivity_saveImage(
 	return true;
 
 }
-extern "C" jboolean Java_my_project_MyRealTimeImageProcessing_TouchView_HightLight1(
+extern "C" jboolean Java_my_project_MyRealTimeImageProcessing_TouchView_HighLight1(
 		JNIEnv* env, jobject object, jint height, jint width, jint x, jint y,
 		jbyteArray imgData, jintArray outPixels) {
 	__android_log_print(ANDROID_LOG_DEBUG, DEBUG_TAG,
