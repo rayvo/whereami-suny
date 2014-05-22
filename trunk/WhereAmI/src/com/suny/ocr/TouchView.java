@@ -222,7 +222,7 @@ public class TouchView extends ImageView {
 	//
 	// Native JNI
 	//
-	private native boolean HightLight(Bitmap bitmap, int x, int y,
+	private native boolean HighLight(Bitmap bitmap, int x, int y,
 			byte[] imgData, int[] outPixels);
 
 	public native boolean brightness(Bitmap bmp, float brightness);
@@ -236,7 +236,7 @@ public class TouchView extends ImageView {
 			Log.i("MyRealTimeImageProcessing", "DoImageProcessing():");
 			bProcessing = true;
 
-			HightLight(curBitmap, x, y, inputData, pixels);
+			HighLight(curBitmap, x, y, inputData, pixels);
 			/* bitmap.setPixels(pixels, 0, width, 0, 0, width, height); */
 
 			TouchView.this.setImageBitmap(curBitmap);
