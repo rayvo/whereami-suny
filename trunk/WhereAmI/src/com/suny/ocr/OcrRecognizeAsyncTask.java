@@ -60,7 +60,7 @@ final class OcrRecognizeAsyncTask extends AsyncTask<Void, Void, Boolean> {
   }
   
  @SuppressLint("SimpleDateFormat")
-	protected void extractFragments() {
+	protected void saveImage() {
 		Bitmap bitmap = activity.getCameraManager()
 				.buildLuminanceSource(data, width, height)
 				.renderBitmap();
@@ -100,7 +100,7 @@ final class OcrRecognizeAsyncTask extends AsyncTask<Void, Void, Boolean> {
   @Override
   protected Boolean doInBackground(Void... arg0) {
 	  if (!beProcessing) {
-		  extractFragments();
+		  saveImage();
 	  } else {
 		  System.out.print("Hello");
 	  }
